@@ -1,0 +1,7 @@
+.lead__image {
+	width: calc(100% - 48px);
+	height: 615px;
+	background: url('../../../images/map.jpg') no-repeat;
+	background-size:  contain;
+	margin: 0 auto;
+}
