@@ -1,0 +1,9 @@
+.cover__image {
+	margin: 0 auto;
+	width: 1184px;
+	height: 740px;
+	background-image: url('../../../images/baikal-on-dogs.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+}
