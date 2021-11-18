@@ -1,5 +1,5 @@
 .places {
-	overflow: hidden;
-	padding: 92px 100px 0;
-	box-sizing: border-box;
+	width: 77%;
+	padding: 92px 0 0;
+	margin: auto;
 }

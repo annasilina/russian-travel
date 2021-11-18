@@ -1,11 +1,19 @@
 .place {
+	margin: auto;
 	display: grid;
-	grid-template-columns: minmax(340px, max-content) minmax(352px, max-content);
-	grid-auto-rows: auto;
+	grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
 	gap: 48px 40px;
 	padding-bottom: 80px;
 }
 
 .place:last-child {
 	padding-bottom: 0;
+}
+
+@media screen and (max-width: 360px) {
+	.place {
+		grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
+		gap: 32px 0;
+		padding-bottom: 64px;
+	}
 }

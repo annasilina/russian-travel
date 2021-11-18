@@ -1,9 +1,8 @@
-/*блок cover разъебало, хуй пойми почему. Надо переделать*/
 .cover {
 	margin: 0 auto;
-	max-width: 1184px;
-	height: 740px;
+	width: 92.5%;
+	height: 86.5vh;
 	background-image: url('../../images/baikal-on-dogs.jpg');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
