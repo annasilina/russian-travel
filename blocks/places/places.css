@@ -4,8 +4,16 @@
 	margin: auto;
 }
 
+/*промежуточное разрешение чтобы блок аккуратно растягивался*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	.places {
+		width: calc(100% - 10rem);
+	}
+}
+
+
 /*разрешения для небольших ноутбуков*/
-@media screen and (min-width: 900px) and (max-width: 1200px) {
+@media screen and (min-width: 900px) and (max-width: 1025px) {
 	.places {
 		width: calc(100% - 6rem);
 	}
