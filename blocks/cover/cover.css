@@ -1,8 +1,15 @@
 .cover {
-	margin: 0 auto;
-	width: 92.5%;
-	height: 86.5vh;
+	width: calc(100% - 6rem);
+	margin: auto;
 	background-image: url('../../images/baikal-on-dogs.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/*для всех разрешений ниже 1024*/
+@media screen and (max-width: 1024px) {
+	.cover {
+		width: 100%;
+	}
+}
+

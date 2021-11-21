@@ -2,5 +2,18 @@
 	width: 100%;
 	margin: 4rem 0 0;
 	object-fit: fill;
-	align-self: start;
+}
+
+/*разрешения для небольших ноутбуков и планшетов*/
+@media screen and (min-width: 460px) and (max-width: 1025px) {
+	.lead__image {
+		margin: 3.5rem 0 0;
+	}
+}
+
+/*разрешения для мобилок*/
+@media screen and (max-width: 460px)  {
+	.lead__image {
+		margin: 2.5rem 0 0;
+	}
 }

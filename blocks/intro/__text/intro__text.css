@@ -1,9 +1,15 @@
 .intro__text {
 	max-width: 690px;
 	margin: 0;
-	padding: 0 0 33px;
+	padding: 2.5rem 0 0;
 	font-weight: normal;
-	font-size: 16px;
-	line-height: 163%;
+	font-size: 1rem;
+	line-height: 1.63;
+}
 
+/*разрешения для мобилок*/
+@media screen and (max-width: 460px)  {
+	.intro__text {
+		max-width: 288px;
+	}
 }

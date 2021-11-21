@@ -1,19 +1,35 @@
 .place {
 	margin: auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
-	gap: 48px 40px;
-	padding-bottom: 80px;
+	grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
+	gap: 3rem 2.5rem;
+	padding: 0 0 5rem;
 }
 
 .place:last-child {
 	padding-bottom: 0;
 }
 
-@media screen and (max-width: 360px) {
+
+/*разрешения для небольших ноутбуков*/
+@media screen and (min-width: 900px) and (max-width: 1025px) {
 	.place {
-		grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
-		gap: 32px 0;
-		padding-bottom: 64px;
+		column-gap: 2rem;
+	}
+}
+
+/*разрешения для планшетов*/
+@media screen and (min-width: 460px) and (max-width: 900px) {
+	.place {
+		column-gap: 1.75rem;
+		padding-bottom: 4.5rem;
+	}
+}
+
+/*разрешения для мобилок*/
+@media screen and (max-width: 460px)  {
+	.place {
+		gap: 2rem 0;
+		padding-bottom: 3rem;
 	}
 }

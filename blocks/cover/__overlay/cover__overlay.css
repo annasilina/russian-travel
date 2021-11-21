@@ -1,6 +1,6 @@
 .cover__overlay {
-	margin: 92px 0 0;
-	height: 100%;
+	width: 100%;
+	min-height: 740px;
 	background-color: rgba(42, 44, 47, .3);
 	text-decoration: none;
 	color: #fff;
@@ -13,4 +13,25 @@
 .cover__overlay:hover {
 	cursor: pointer;
 	background-color: rgba(42, 44, 47, .8);
+}
+
+/*разрешения для небольших ноутбуков*/
+@media screen and (min-width: 900px) and (max-width: 1025px) {
+	.cover__overlay {
+		min-height: 640px;
+	}
+}
+
+/*разрешения для планшетов*/
+@media screen and (min-width: 460px) and (max-width: 900px) {
+	.cover__overlay {
+		min-height: 480px;
+	}
+}
+
+/*разрешения для мобилок*/
+@media screen and (max-width: 460px)  {
+	.cover__overlay {
+		min-height: 200px;
+	}
 }

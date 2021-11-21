@@ -9,12 +9,14 @@
 	padding: .5rem 0 0;
 }
 
+/*разрешения для планшетов*/
 @media screen and (min-width: 460px) and (max-width: 900px) {
 	.lead__caption {
 		padding-left: 1.5rem;
 	}
 }
 
+/*разрешения для мобилок*/
 @media screen and (min-width: 290px) and (max-width: 460px) {
 	.lead__caption {
 		padding-left: 1rem;
