@@ -7,7 +7,7 @@
 }
 
 /*разрешения для планшетов*/
-@media screen and (min-width: 460px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 	.places__text {
 		font-size: 1rem;
 		line-height: 1.63;
@@ -17,8 +17,6 @@
 /*разрешения для мобилок*/
 @media screen and (max-width: 460px) {
 	.places__text {
-		font-size: 1rem;
-		line-height: 1.63;
 		width: calc(100% - 2rem);
 		margin: auto;
 	}
