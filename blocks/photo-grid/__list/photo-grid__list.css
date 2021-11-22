@@ -3,28 +3,14 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
 	gap: 1rem;
-}
-
-/*разрешения для небольших ноутбуков*/
-@media screen and (min-width: 1100px) and (max-width: 1279px) {
-	.photo-grid__list {
-		justify-content: center;
-	}
+	justify-content: center;
 }
 
 
 /*разрешения для небольших ноутбуков*/
-@media screen and (min-width: 990px) and (max-width: 1025px) {
+@media screen and (min-width: 770px) and (max-width: 1025px) {
 	.photo-grid__list {
 		gap: .88rem;
-	}
-}
-
-/*разрешения для небольших ноутбуков*/
-@media screen and (min-width: 770px) and (max-width: 990px) {
-	.photo-grid__list {
-		gap: .88rem;
-		justify-content: center;
 	}
 }
 
