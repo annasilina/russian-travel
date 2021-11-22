@@ -2,4 +2,11 @@
 	font-weight: normal;
 	font-size: 1.13rem;
 	line-height: 1.2;
+	border-bottom: .06rem solid #fff;
+}
+
+.places__link:hover {
+	cursor: pointer;
+	opacity: .8;
+	transition: opacity .3s;
 }

@@ -1,13 +1,12 @@
 .link {
 	display: inline-block;
 	text-decoration: none;
-	border-bottom: .06rem solid #fff;
 	box-sizing: border-box;
 	color: #fff;
 }
 
-.link:hover {
-	cursor: pointer;
-	opacity: .8;
-	transition: opacity .3s;
-}
+/*.link:hover {*/
+/*	cursor: pointer;*/
+/*	opacity: .8;*/
+/*	transition: opacity .3s;*/
+/*}*/

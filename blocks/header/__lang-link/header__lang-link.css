@@ -1,9 +1,14 @@
 .header__lang-link {
-	margin-right: 1.13rem;
+	margin: 0 1.13rem .31rem 0;
 	font-size: 1.5rem;
 	line-height: 1.17;
 	align-self: end;
-	padding-bottom: .31rem;
+}
+
+.header__lang-link:hover {
+	cursor: pointer;
+	opacity: .8;
+	transition: opacity .3s;
 }
 
 .header__lang-link:last-child {
@@ -14,7 +19,7 @@
 	.header__lang-link {
 		font-size: 1.13rem;
 		line-height: 1.11;
-		padding-bottom: .44rem;
+		margin-bottom: .44rem;
 	}
 }
 
