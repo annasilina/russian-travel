@@ -18,7 +18,7 @@
 /*разрешения для мобилок*/
 @media screen and (max-width: 460px)  {
 	.intro__title {
-		padding-top: 3rem;
+		padding-top: 4rem;
 		max-width: 250px;
 		font-size: 2rem;
 		line-height: 1.09;

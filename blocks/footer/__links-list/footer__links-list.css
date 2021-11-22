@@ -1,4 +1,4 @@
-.footer__links {
+.footer__links-list {
 	display: grid;
 	grid-template-columns: repeat(5, auto);
 	gap: 0 1.13rem;
@@ -6,7 +6,7 @@
 
 /*разрешения для мобилок*/
 @media screen and (max-width: 680px)  {
-	.footer__links {
+	.footer__links-list {
 		grid-template-rows: repeat(5, auto);
 		grid-template-columns: none;
 		gap: 2rem 0;

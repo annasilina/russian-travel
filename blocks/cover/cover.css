@@ -4,6 +4,7 @@
 	background-image: url('../../images/baikal-on-dogs.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 /*для всех разрешений ниже 1024*/

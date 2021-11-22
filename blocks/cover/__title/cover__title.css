@@ -10,7 +10,7 @@
 }
 
 /*разрешения для мобилок*/
-@media screen and (max-width: 460px)  {
+@media screen and (max-width: 550px)  {
 	.cover__title {
 		max-width: 250px;
 		font-size: 2rem;

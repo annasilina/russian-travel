@@ -9,7 +9,7 @@
 }
 
 /*разрешения для мобилок*/
-@media screen and (max-width: 460px)  {
+@media screen and (max-width: 550px)  {
 	.cover__subtitle {
 		font-size: .88rem;
 		line-height: 1.14;

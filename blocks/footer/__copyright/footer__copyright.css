@@ -4,11 +4,13 @@
 	font-weight: normal;
 	font-size: .88rem;
 	line-height: .88;
+	align-self: center;
 }
 
 /*разрешения для мобилок*/
 @media screen and (max-width: 680px) {
-	.footer__link {
+	.footer__copyright {
 		line-height: 1;
+		align-self: flex-start;
 	}
 }
