@@ -8,7 +8,7 @@
 }
 
 /*разрешения для планшетов*/
-@media screen and (min-width: 680px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 	.footer {
 		width: calc(100% - 3rem);
 		padding-top: 5.5rem;
@@ -16,10 +16,8 @@
 }
 
 /*промежуточное разрешение, чтобы футер не выходил за ширину контента*/
-@media screen and (min-width: 460px) and (max-width: 680px) {
+@media screen and (max-width: 680px) {
 	.footer {
-		width: calc(100% - 3rem);
-		padding-top: 5.5rem;
 		flex-direction: column;
 	}
 }
@@ -30,6 +28,5 @@
 	.footer {
 		width: calc(100% - 2rem);
 		padding-top: 4rem;
-		flex-direction: column;
 	}
 }
