@@ -1,10 +1,10 @@
-.place__website {
+.places__website {
 	align-self: end;
 }
 
 /*разрешения для мобилок*/
 @media screen and (max-width: 460px)  {
-	.place__website {
+	.places__website {
 		width: calc(100% - 2rem);
 		margin: auto;
 	}

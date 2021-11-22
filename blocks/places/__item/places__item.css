@@ -1,4 +1,4 @@
-.place {
+.places__item {
 	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
@@ -6,21 +6,21 @@
 	padding: 0 0 5rem;
 }
 
-.place:last-child {
+.places__item:last-child {
 	padding-bottom: 0;
 }
 
 
 /*разрешения для небольших ноутбуков*/
 @media screen and (min-width: 900px) and (max-width: 1025px) {
-	.place {
+	.places__item {
 		column-gap: 2rem;
 	}
 }
 
 /*разрешения для планшетов*/
 @media screen and (min-width: 460px) and (max-width: 900px) {
-	.place {
+	.places__item {
 		column-gap: 1.75rem;
 		padding-bottom: 4.5rem;
 	}
@@ -28,7 +28,7 @@
 
 /*разрешения для мобилок*/
 @media screen and (max-width: 460px)  {
-	.place {
+	.places__item {
 		gap: 2rem 0;
 		padding-bottom: 3rem;
 	}

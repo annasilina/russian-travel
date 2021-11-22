@@ -1,8 +1,0 @@
-.place__paragraph {
-	margin: 0;
-	padding: 0 0 1.6rem;
-}
-
-.place__paragraph:last-child {
-	padding: 0;
-}
