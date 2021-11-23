@@ -1,14 +1,13 @@
 .footer__links-list {
 	display: grid;
-	grid-template-columns: repeat(5, auto);
+	grid-auto-flow: column;
 	gap: 0 1.13rem;
 }
 
 /*разрешения для мобилок*/
 @media screen and (max-width: 680px)  {
 	.footer__links-list {
-		grid-template-rows: repeat(5, auto);
-		grid-template-columns: none;
+		grid-auto-flow: row;
 		gap: 2rem 0;
 		padding-bottom: 3rem;
 	}
